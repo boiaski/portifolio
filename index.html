@@ -1,159 +1,210 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Darles Michel Thume</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="./imagens-perfil/DarlesPerfil.png" type="image/png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darles Michel Thume — Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./imagens-perfil/DarlesPerfil.png" type="image/png">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                Darles Michel Thume
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#experiencia">Experiência</a></li>
-                    <li><a href="#contatos">Contatos</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h2>Darles Michel Thume</h2>
-            <!-- <p>Desenvolvedor</p> -->
-        </div>
-        <div class="perfil-image">
-            <img src="./imagens-perfil/DarlesPerfil.png" alt="Darles Michel Thume">
-        </div>
-    </section>
-    <section id="sobre">   
-        <h2>Sobre</h2>
-        <div id="sobre-section">
-            <div class="sobre-content">
-                <img id="img-sobre" src="./imagens-perfil/DarlesSobre.png" alt="Darles">
-            </div>
-            <div class="sobre-content">
-                <p id="sobre-texto">
-                    Sou natural de Santo Cristo e tenho 20 anos. Concluí o ensino médio no Instituto Federal Farroupilha – Campus Santa Rosa, onde também me formei no curso técnico em Móveis, desenvolvendo disciplina, organização e habilidades práticas.
 
-                    Atualmente, estou cursando Ciências da Computação na Unijuí, no 7º semestre. Durante a graduação, venho aprimorando meus conhecimentos e construindo experiências que contribuem para minha formação como profissional na área de tecnologia.
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="container">
+      <div class="logo">Darles<span class="dot">.</span></div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#contatos">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-                    Embora ainda não atue profissionalmente na área, busco constantemente me desenvolver por meio de cursos e estudos complementares. Possuo conhecimentos em linguagens de programação como Java e Python, além de experiência com desenvolvimento web utilizando HTML e CSS. Estou motivado a ingressar no mercado de trabalho e aplicar, na prática, tudo o que venho aprendendo ao longo da minha trajetória acadêmica.
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-badge">Disponível para oportunidades</div>
+      <h1>
+        Olá, sou<br>
+        <span class="name-accent">Darles Michel</span><br>
+        Thume
+      </h1>
+      <p class="hero-subtitle">
+        Estudante de Ciências da Computação na Unijuí, apaixonado por tecnologia e em busca da primeira oportunidade na área de desenvolvimento.
+      </p>
+      <div class="hero-cta">
+        <a href="#contatos" class="btn-primary">Entre em contato</a>
+        <a href="#sobre" class="btn-secondary">Saiba mais</a>
+      </div>
+    </div>
+    <div class="perfil-image">
+      <img src="./imagens-perfil/DarlesPerfil.png" alt="Darles Michel Thume">
+    </div>
+  </section>
 
-                </p>
-            </div>
+  <!-- ===== SOBRE ===== -->
+  <section id="sobre">
+    <span class="section-label">Quem sou eu</span>
+    <h2>Sobre mim</h2>
+    <div id="sobre-section" class="reveal">
+      <div class="sobre-img-wrapper">
+        <img id="img-sobre" src="./imagens-perfil/DarlesSobre.png" alt="Darles Michel Thume">
+      </div>
+      <div class="sobre-text-card">
+        <p id="sobre-texto">Sou natural de Santo Cristo e tenho 20 anos. Concluí o ensino médio no Instituto Federal Farroupilha – Campus Santa Rosa, onde também me formei no curso técnico em Móveis, desenvolvendo disciplina, organização e habilidades práticas.
+
+Atualmente, estou cursando Ciências da Computação na Unijuí, no 7º semestre. Durante a graduação, venho aprimorando meus conhecimentos e construindo experiências que contribuem para minha formação como profissional na área de tecnologia.
+
+Embora ainda não atue profissionalmente na área, busco constantemente me desenvolver por meio de cursos e estudos complementares. Possuo conhecimentos em linguagens de programação como Java e Python, além de experiência com desenvolvimento web utilizando HTML e CSS. Estou motivado a ingressar no mercado de trabalho e aplicar, na prática, tudo o que venho aprendendo ao longo da minha trajetória acadêmica.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HABILIDADES ===== -->
+  <section id="habilidades">
+    <span class="section-label">O que eu sei</span>
+    <h2>Habilidades</h2>
+
+    <div id="habilidades-section" class="reveal">
+      <div class="habilidades-content">
+        <img class="img-habilidade" src="./imagens-perfil/python1.png" alt="Python">
+        <span class="linguagem-label">Python</span>
+      </div>
+      <div class="habilidades-content">
+        <img class="img-habilidade" src="./imagens-perfil/react1.png" alt="React">
+        <span class="linguagem-label">React</span>
+      </div>
+      <div class="habilidades-content">
+        <img class="img-habilidade" src="./imagens-perfil/html-1.png" alt="HTML">
+        <span class="linguagem-label">HTML</span>
+      </div>
+      <div class="habilidades-content">
+        <img class="img-habilidade" src="./imagens-perfil/css1.png" alt="CSS">
+        <span class="linguagem-label">CSS</span>
+      </div>
+      <div class="habilidades-content">
+        <img class="img-habilidade" src="./imagens-perfil/windows1.png" alt="Windows">
+        <span class="linguagem-label">Windows</span>
+      </div>
+    </div>
+
+    <div class="skills reveal">
+      <div class="skills-card">
+        <h3>Hard Skills</h3>
+        <ul>
+          <li><strong>Python</strong> — Linguagem de programação</li>
+          <li><strong>React</strong> — Biblioteca JavaScript</li>
+          <li><strong>HTML</strong> — Linguagem de marcação</li>
+          <li><strong>CSS</strong> — Estilização web</li>
+          <li><strong>Windows</strong> — Sistema operacional</li>
+          <li><strong>Looker Studio</strong> — Análise de dados</li>
+        </ul>
+      </div>
+      <div class="skills-card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Organização</li>
+          <li>Responsabilidade</li>
+          <li>Atenção aos detalhes</li>
+          <li>Comunicação eficaz</li>
+          <li>Trabalho em equipe</li>
+          <li>Resolução de problemas</li>
+          <li>Proatividade &amp; Liderança</li>
+          <li>Gestão do tempo</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIÊNCIA ===== -->
+  <section id="experiencia">
+    <span class="section-label">Trajetória</span>
+    <h2>Experiência Profissional</h2>
+    <div id="experiencia-section" class="reveal">
+
+      <div class="experiencia-content">
+        <div class="exp-card">
+          <p class="exp-card-title">Birck Agrícola — Departamento Financeiro/Fiscal</p>
+          <p class="exp-card-period">Março/2023 – Julho/2024</p>
+          <ul>
+            <li>Apoio às rotinas administrativas e controle das atividades financeiras da empresa</li>
+            <li>Lançamento e organização de documentos fiscais</li>
+            <li>Controle de contas a pagar e a receber e conferência de notas fiscais</li>
+            <li>Acompanhamento de prazos, organização de arquivos e suporte no faturamento</li>
+            <li>Elaboração de relatórios financeiros</li>
+            <li>Conformidade com obrigações fiscais e tributárias</li>
+          </ul>
         </div>
-    </section>
-    
-    <section id="habilidades">
-        <h2>Habilidades</h2>
-        <div id="habilidades-section">
-            <div class="habilidades-content">
-                <img id="img-habilidades" src="./imagens-perfil/python1.png" alt="Darles">
-                <p id="linguagem">Python</p>
-            </div>
-            <div class="habilidades-content">
-                <img id="img-habilidades" src="./imagens-perfil/react1.png" alt="Darles">
-                <p id="linguagem">React</p>
-            </div>
-            <div class="habilidades-content">
-                <img id="img-habilidades" src="./imagens-perfil/html-1.png" alt="Darles">
-                <p id="linguagem">HTML</p>
-            </div>
-            <div class="habilidades-content">
-                <img id="img-habilidades" src="./imagens-perfil/css1.png" alt="Darles">
-                <p id="linguagem">CSS</p>
-            </div>
-            <div class="habilidades-content">
-                <img id="img-habilidades" src="./imagens-perfil/windows1.png" alt="Darles">
-                <p id="linguagem">Windows</p>
-            </div>
+      </div>
+
+      <div class="experiencia-content">
+        <div class="exp-card exp-card-current">
+          <p class="exp-card-title">Birck Agrícola — Administrativo / Gerenciamento de Colaboradores</p>
+          <p class="exp-card-period">Julho/2024 – Atualmente <span class="badge-current">Atual</span></p>
+          <ul>
+            <li>Coordenação da equipe de técnicos, organizando deveres e atividades diárias</li>
+            <li>Controle de presença, acompanhamento de desempenho e organização de escalas</li>
+            <li>Acompanhamento da equipe de vendas, aprovação de pedidos e compra de equipamentos</li>
+            <li>Suporte na comunicação interna, organização de documentos e registros de colaboradores</li>
+            <li>Apoio em processos de admissão, treinamento e integração de novos funcionários</li>
+            <li>Encaminhamento de processos de financiamento junto a instituições bancárias</li>
+            <li>Controle e realização de pagamentos, incluindo salários e boletos</li>
+          </ul>
         </div>
-        <div class="skills"> 
-            <div>
-                <h3>Hard Skills:</h3>
-                <li><b>Linguagens de Programação:</b> Python, React</li>
-                <li><b>Linguagens de marcação:</b> HTML</li>
-                <li><b>Estilização:</b> CSS</li>
-                <li><b>Sistemas Operacionais:</b> Windows</li>
-                <li><b>Conhecimento em Looker Studio</b></li>
-            </div>     
-            <div>
-                <h3>Soft Skills:</h3>
-                <li><b>Organização</b></li>
-                <li><b>Responsabilidade</b></li>
-                <li><b>Atenção aos detalhes</b></li>
-                <li><b>Comunicação eficaz</b></li>
-                <li><b>Trabalho em equipe</b></li>
-                <li><b>Resolução de problemas</b></li>
-                <li><b>Proatividade</b></li>
-                <li><b>Liderança</b></li>
-                <li><b>Gestão do tempo</b></li>
-            </div>
-        </div>
-   
-    </section>
-    <section id="experiencia">
-        <h2>Experiência</h2>
-        <div id="experiencia-section">
-            <div class="experiencia-content">
-                <div id="experiencia-texto">
-                    <p id="titulo-exp">Experiência:</p>
-                    <li><b>Instrutor/Professor Vôlei - Projeto Ijuí Pró-Vôlei (2017- 2018)</b></li>
-                    <li><b>27º GAC - Efetivo variável, Armeiro 1ª BO</b></li>
-                    <li><b>Estagiário de Informática - Emater Regional Ijuí (2021 - 2023)</b></li>
-                </div>          
-                <div id="experiencia-texto">
-                    <p id="titulo-exp">Profissão:</p>
-                    <li><b>Suporte de sistemas de gestão empresarial - VGI informática 
-                        (2023 - até o presente)</b></li>
-                        <br>
-                </div>
-            </div>
-            <div class="experiencia-content">
-                <div id="experiencia-texto">
-                    <p id="titulo-exp">Formações:</p>
-                    <li><b>Bacharelado em Educação Física - Universidade Regional do Noroeste do Estado do Rio Grande do Sul 
-                        (2017 - Trancamento no 7º Semestre)</b></li>
-                        <br>
-                        <li><b>Bacharelado em Ciência da Computação - Universidade Regional do Noroeste do Estado do Rio Grande do Sul 
-                        (2021 - Cursando 7º Semestre)</b></li>
-                    <p id="titulo-exp">Aperfeiçoamento:</p>
-                    <li><b>Curso de Operador de Processos Logísticos Indústrias pela BALMER – SENAI (2019-2020)</b></li>
-                </div>
-                
-                
-            </div>
-        </div>
-    </section>
-    <section id="contatos">
-        <h2>Contatos</h2>
-        <div id="contato-section">
-            <div class="contato-content">
-                <img id="img-contatos" src="./imagens-perfil/telefone.png" alt="Darles">
-                <p id="contato-descricao">Telefone</p>
-                <p id="contato-info">(55) 99705-7839</p>
-            </div>
-            <div class="contato-content">
-                <a href="https://www.instagram.com/darles_thume" target="_blank">
-                    <img id="img-contatos" src="./imagens-perfil/Insta.png" alt="Instagram link">
-                </a>
-                <p id="contato-descricao">Instagram</p>
-                <p id="contato-info">@darles_thume</p>
-            </div>
-            <div class="contato-content">
-                <img id="img-contatos" src="./imagens-perfil/Email.png" alt="Darles">
-                <p id="contato-descricao">E-mail</p>
-                <p id="contato-info">darles.thume05@gmail.com</p>
-            </div>
-        </div>
-    </section>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTATOS ===== -->
+  <section id="contatos">
+    <span class="section-label">Fale comigo</span>
+    <h2>Contatos</h2>
+    <div id="contato-section" class="reveal">
+
+      <div class="contato-content">
+        <img id="img-contatos" src="./imagens-perfil/telefone.png" alt="Telefone">
+        <p id="contato-descricao">Telefone</p>
+        <p id="contato-info">(55) 99705-7839</p>
+      </div>
+
+      <a class="contato-content" href="https://www.instagram.com/darles_thume" target="_blank" rel="noopener">
+        <img id="img-contatos" src="./imagens-perfil/Insta.png" alt="Instagram">
+        <p id="contato-descricao">Instagram</p>
+        <p id="contato-info">@darles_thume</p>
+      </a>
+
+      <div class="contato-content">
+        <img id="img-contatos" src="./imagens-perfil/Email.png" alt="E-mail">
+        <p id="contato-descricao">E-mail</p>
+        <p id="contato-info"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d6b2b7a4bab3a5f8a2bea3bbb3e6e396b1bbb7bfbaf8b5b9bb">[email&#160;protected]</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 <span class="ft-accent">Darles Michel Thume</span> — Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- ===== SCRIPT REVEAL ===== -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+
 </body>
 </html>
